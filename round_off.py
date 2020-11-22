@@ -1,0 +1,6 @@
+print("Round Off the number upto 3 decimal place and 3 decimal palce")
+a=float(input("Enter the any number:"))
+c=round(a,2)
+b=round(a,3)
+print(a,"ronded off to 2 decimal palce after deciaml is",c)
+print(a,"ronded off to 3 decimal palce after deciaml is",b)      
