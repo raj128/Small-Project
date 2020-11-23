@@ -15,6 +15,11 @@ s.extend(list(s2))
 s.extend(list(s3))
 s.extend(list(s4))
 random.shuffle(s)
+try:
+    passlen=int(input("Enter the passward length:"))
+except:
+    print("Enter the integer like 4,5,7 etc ")
+    passlen=int(input("Enter the passward length:"))
 print("".join(s[0:passlen]))
     
     
